@@ -1,0 +1,51 @@
+body {
+	margin: 10px;
+}
+
+.header {
+	width: 80%;
+	height: 100px;
+	border: solid 1px black;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+#phrase {
+	margin: 10px;
+	text-align: center;
+	font-family: Tahoma, Arial !important;
+	font-size: 40px;
+	color: #909090;
+	text-shadow: #cad5e2 1px 0px 0, black 2px 2px 0;
+}
+
+#subphrase {
+	margin: 0;
+	text-align: center;
+	font-family: Tahoma, Arial !important;
+	font-size: 15px;
+	color: black;
+}
+
+.menu {
+	margin: 10px;
+	width: 10%;
+	height: 150px;
+	border: solid 1px black;
+	margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    float: left;
+}
+
+h1 {
+	text-align: center;
+	font-family: Tahoma, Arial !important;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
