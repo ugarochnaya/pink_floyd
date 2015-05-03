@@ -1,8 +1,15 @@
 body {
 	margin: 10px;
+	background-color: #c2c2c2;
 }
 
-.header {
+.container {
+	min-width: 600px;
+	max-width: 940px;
+	margin: 10px auto;
+}
+
+header {
 	width: 80%;
 	height: 100px;
 	border: solid 1px black;
@@ -29,15 +36,25 @@ body {
 	color: black;
 }
 
-.menu {
-	margin-top: 20px;
-	width: 10%;
-	height: 40%;
+#menu {
+	min-width: 150px;
+	max-width: 150px;
+	height: 200px;
 	border: solid 1px black;
 	margin-left: auto;
-    margin-right: auto;
+    /* margin-right: 10px; */
     overflow: hidden;
     float: left;
+}
+
+h3 {
+	margin: 5px auto;
+}
+
+#menu ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 0;
 }
 
 nav {
@@ -54,20 +71,32 @@ a {
 	color: black;
 }
 
-.short_info {
+#short_info {
+	max-width: 200px;
 	border: solid 1px black;
 	float: right;
-	margin-top: 20px;
+	text-align: center;
 }
 
-.main_info {
-	width: 60%;
-	margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
+#short_info img {
+	max-width: 90%;
+	padding: 0 5%;
 }
 
-#main_info_text {
+#main_info {
+	margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    max-width: 566px;
+    text-align: center;
+}
+
+#main_info p {
+	min-width: 50px;
 	border: solid 1px black;
 	text-align:  justify;
-} 
+	margin-top: 0;
+	padding: 10px;
+}
+
+
