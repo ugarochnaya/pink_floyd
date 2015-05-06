@@ -37,7 +37,7 @@ header {
 }
 
 #menu {
-	min-width: 150px;
+	min-width: 100px;
 	max-width: 150px;
 	height: 200px;
 	border: solid 1px black;
@@ -47,14 +47,14 @@ header {
     float: left;
 }
 
-h3 {
-	margin: 5px auto;
+ul {
+	text-align: left;
+	list-style-type: none;
+	padding:0 0 0 15;
 }
 
-#menu ul {
-	text-align: center;
-	list-style-type: none;
-	padding: 0;
+h3 {
+	margin: 5px auto;
 }
 
 nav {
@@ -87,8 +87,9 @@ a {
 	margin-left: 10px;
     margin-right: 10px;
     float: left;
-    max-width: 566px;
+    max-width: 615px;
     text-align: center;
+    text-indent: 15px;
 }
 
 #main_info p {
@@ -99,4 +100,17 @@ a {
 	padding: 10px;
 }
 
+td {
+	text-align: center;
+}
 
+#main_info_text {
+	font-size: 10px;
+	text-align: justify;
+	padding: 0 5 0 5;
+	text-indent: 5px;
+}
+
+#main_info_links {
+	color: blue;
+}
